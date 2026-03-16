@@ -2,89 +2,579 @@
   {
     "id": 1,
     "topic": "Sistema tributario local",
-    "question": "Los tributos propios de las entidades locales se clasifican en:",
+    "question": "La hacienda de las entidades locales esta constituida, entre otros recursos, por:",
     "options": {
-      "A": "Impuestos, tasas y contribuciones especiales",
-      "B": "Impuestos, precios publicos y sanciones",
-      "C": "Tasas, multas e impuestos estatales cedidos",
-      "D": "Contribuciones especiales, recargos y aranceles"
+      "A": "Solo tributos propios",
+      "B": "Solo subvenciones y precios publicos",
+      "C": "Tributos propios, participaciones en tributos del Estado y CCAA, subvenciones y otros recursos legales",
+      "D": "Solo patrimonio y operaciones de credito"
     },
-    "answer": "A",
-    "explanation": "Los tributos propios de las entidades locales son impuestos, tasas y contribuciones especiales.",
-    "reference": "TRLRHL, art. 2"
+    "answer": "C",
+    "explanation": "La LRHL enumera una pluralidad de recursos: patrimonio, tributos propios, participaciones en tributos del Estado y CCAA, subvenciones, precios publicos, credito, multas y demas prestaciones de derecho publico.",
+    "reference": "TRLRHL art. 2"
   },
   {
     "id": 2,
     "topic": "Sistema tributario local",
-    "question": "Los principales recursos de las haciendas locales incluyen:",
+    "question": "Los tributos propios de las entidades locales se clasifican en:",
     "options": {
-      "A": "Solo tributos propios",
-      "B": "Tributos propios, participacion en tributos del Estado y otros recursos previstos legalmente",
-      "C": "Solo precios publicos y subvenciones",
-      "D": "Solo ingresos patrimoniales"
+      "A": "Impuestos, tasas y contribuciones especiales",
+      "B": "Impuestos, precios publicos y multas",
+      "C": "Tasas, recargos y sanciones",
+      "D": "Contribuciones especiales, subvenciones y precios publicos"
     },
-    "answer": "B",
-    "explanation": "La ley contempla una pluralidad de recursos, no solo tributos propios.",
-    "reference": "TRLRHL, art. 2"
+    "answer": "A",
+    "explanation": "La ley clasifica los tributos propios en tasas, contribuciones especiales e impuestos.",
+    "reference": "TRLRHL art. 2"
   },
   {
     "id": 3,
-    "topic": "Ordenanzas fiscales",
-    "question": "La aprobacion de las ordenanzas fiscales corresponde:",
+    "topic": "Sistema tributario local",
+    "question": "Para la cobranza de tributos y demas ingresos de derecho publico, la hacienda local ostenta:",
     "options": {
-      "A": "Al alcalde",
-      "B": "Al pleno de la corporacion",
-      "C": "A la diputacion provincial",
-      "D": "A la AEAT"
+      "A": "Las mismas prerrogativas que cualquier particular",
+      "B": "Las prerrogativas establecidas legalmente para la hacienda del Estado",
+      "C": "Solo facultades recaudatorias voluntarias",
+      "D": "Solo facultades sancionadoras"
     },
     "answer": "B",
-    "explanation": "La aprobacion de las ordenanzas fiscales corresponde al pleno de la corporacion local.",
-    "reference": "TRLRHL, arts. 15 a 17"
+    "explanation": "La LRHL reconoce a la hacienda local las prerrogativas legalmente establecidas para la hacienda del Estado para la cobranza de tributos e ingresos de derecho publico.",
+    "reference": "TRLRHL art. 2.2"
   },
   {
     "id": 4,
-    "topic": "Gestion tributaria",
-    "question": "Contra los actos de aplicacion y efectividad de los tributos locales cabe, con caracter previo, recurso de:",
+    "topic": "Sistema tributario local",
+    "question": "Conforme a los apuntes, el sistema tributario local es competencia exclusiva del:",
     "options": {
-      "A": "Alzada",
-      "B": "Reposicion",
-      "C": "Casacion",
-      "D": "Revision de oficio"
+      "A": "Estado",
+      "B": "Municipio",
+      "C": "Cabildo insular",
+      "D": "Tribunal de Cuentas"
     },
-    "answer": "B",
-    "explanation": "En el ambito local destaca el recurso de reposicion en los terminos legales.",
-    "reference": "TRLRHL, art. 14"
+    "answer": "A",
+    "explanation": "Los apuntes subrayan que el sistema tributario local es competencia exclusiva del Estado.",
+    "reference": "Sistema tributario local, introduccion"
   },
   {
     "id": 5,
-    "topic": "Tasas",
-    "question": "Las entidades locales pueden establecer tasas por:",
+    "topic": "Sistema tributario local",
+    "question": "Entre los recursos exclusivos de los municipios, segun los apuntes, figuran principalmente:",
     "options": {
-      "A": "Cualquier servicio publico sin limites",
-      "B": "La utilizacion privativa o aprovechamiento especial del dominio publico local y la prestacion de determinados servicios o actividades",
-      "C": "Cualquier actividad economica privada",
-      "D": "La mera capacidad economica del vecino"
+      "A": "Las tasas",
+      "B": "Los impuestos",
+      "C": "Los recargos sobre impuestos",
+      "D": "Las participaciones en tributos del Estado"
     },
     "answer": "B",
-    "explanation": "Ese es el ambito propio de las tasas locales.",
-    "reference": "TRLRHL, art. 20"
+    "explanation": "Los apuntes distinguen recursos tributarios comunes y recursos exclusivos de los municipios, destacando entre estos los impuestos.",
+    "reference": "Sistema tributario local, sistema tributario local"
   },
   {
     "id": 6,
-    "topic": "Contribuciones especiales",
-    "question": "Las contribuciones especiales se exigen cuando:",
+    "topic": "Potestad reglamentaria",
+    "question": "La potestad reglamentaria tributaria de las entidades locales se ejerce a traves de:",
     "options": {
-      "A": "Se produce una transmision patrimonial",
-      "B": "El sujeto pasivo obtiene un beneficio o aumento de valor de sus bienes por obras o servicios locales",
-      "C": "Se presta cualquier servicio municipal general",
-      "D": "Se incumple una obligacion tributaria"
+      "A": "Bandos de alcaldia",
+      "B": "Ordenanzas fiscales reguladoras de tributos y ordenanzas generales de gestion, recaudacion e inspeccion",
+      "C": "Circulares internas de intervencion",
+      "D": "Acuerdos de junta de gobierno sin publicacion"
     },
     "answer": "B",
-    "explanation": "Las contribuciones especiales se vinculan al beneficio especial o aumento de valor derivado de obras o servicios publicos.",
-    "reference": "TRLRHL"
+    "explanation": "La potestad reglamentaria tributaria local se ejerce por medio de ordenanzas fiscales reguladoras de tributos y ordenanzas generales de gestion, recaudacion e inspeccion.",
+    "reference": "LRBRL art. 106.2; Sistema tributario local"
   },
   {
     "id": 7,
+    "topic": "Potestad reglamentaria",
+    "question": "Respecto de los tributos potestativos, las entidades locales deben:",
+    "options": {
+      "A": "Exigirlos aunque no exista ordenanza fiscal",
+      "B": "Acordar su imposicion o supresion y aprobar la correspondiente ordenanza fiscal",
+      "C": "Esperar autorizacion del Estado en cada caso",
+      "D": "Aplicar siempre la ordenanza provincial"
+    },
+    "answer": "B",
+    "explanation": "Para los tributos potestativos la entidad local debe acordar la imposicion o supresion y aprobar la ordenanza fiscal reguladora.",
+    "reference": "TRLRHL art. 15; Sistema tributario local"
+  },
+  {
+    "id": 8,
+    "topic": "Potestad reglamentaria",
+    "question": "En los tributos de exaccion preceptiva, el ayuntamiento:",
+    "options": {
+      "A": "Debe aprobar siempre ordenanza para poder exigirlos",
+      "B": "Los exigira aun cuando no apruebe ordenanza fiscal",
+      "C": "Solo puede exigirlos por delegacion estatal",
+      "D": "Nunca puede regular ningun aspecto de su cuota"
+    },
+    "answer": "B",
+    "explanation": "Los tributos de exaccion preceptiva se exigen aunque el ayuntamiento no apruebe ordenanza fiscal, porque la ley contiene los elementos necesarios para su exaccion.",
+    "reference": "Sistema tributario local"
+  },
+  {
+    "id": 9,
+    "topic": "Potestad reglamentaria",
+    "question": "En el IBI, la ordenanza fiscal puede regular, entre otros aspectos:",
+    "options": {
+      "A": "El hecho imponible completo",
+      "B": "El tipo de gravamen y los beneficios fiscales aplicables",
+      "C": "La definicion de bien inmueble a efectos catastrales",
+      "D": "La normativa de revision de oficio"
+    },
+    "answer": "B",
+    "explanation": "En el IBI la ordenanza fiscal puede regular aspectos como el tipo de gravamen y los beneficios fiscales aplicables, pero no redefinir elementos reservados a la ley.",
+    "reference": "Sistema tributario local"
+  },
+  {
+    "id": 10,
+    "topic": "Potestad reglamentaria",
+    "question": "En el IVTM, la ordenanza fiscal puede regular, segun los apuntes:",
+    "options": {
+      "A": "Los coeficientes de incremento y beneficios fiscales aplicables",
+      "B": "La titularidad del vehiculo",
+      "C": "La definicion de via publica",
+      "D": "La exaccion por el Estado"
+    },
+    "answer": "A",
+    "explanation": "Los apuntes indican que la ordenanza puede regular, entre otros extremos, coeficientes de incremento y beneficios fiscales aplicables en el IVTM.",
+    "reference": "Sistema tributario local"
+  },
+  {
+    "id": 11,
+    "topic": "Ordenanzas fiscales",
+    "question": "Las entidades locales deberan aprobar ordenanzas fiscales reguladoras de sus tributos propios:",
+    "options": {
+      "A": "Solo si son impuestos obligatorios",
+      "B": "Salvo en los supuestos previstos en el art. 59.1 TRLRHL",
+      "C": "Nunca, porque basta la ley",
+      "D": "Solo si media autorizacion autonómica"
+    },
+    "answer": "B",
+    "explanation": "El art. 15 TRLRHL establece la regla general de aprobacion de ordenanzas fiscales para los tributos propios, salvo supuestos especificos del art. 59.1.",
+    "reference": "TRLRHL art. 15"
+  },
+  {
+    "id": 12,
+    "topic": "Ordenanzas fiscales",
+    "question": "Las ordenanzas fiscales reguladoras de tributos propios deben contener, al menos:",
+    "options": {
+      "A": "Solo la cuota tributaria",
+      "B": "Hecho imponible, sujeto pasivo, responsables, exenciones, base, tipo o cuota, periodo impositivo y devengo, entre otros extremos",
+      "C": "Solo las fechas de aprobacion y aplicacion",
+      "D": "Solo regimen sancionador"
+    },
+    "answer": "B",
+    "explanation": "El art. 16 recoge el contenido minimo de las ordenanzas: hecho imponible, sujeto pasivo, responsables, exenciones, reducciones, bonificaciones, base, tipo o cuota, periodo impositivo, devengo, regímenes de declaración e ingreso, y fechas de aprobación y aplicación.",
+    "reference": "TRLRHL art. 16"
+  },
+  {
+    "id": 13,
+    "topic": "Ordenanzas fiscales",
+    "question": "Los acuerdos de aprobacion de ordenanzas fiscales deben adoptarse:",
+    "options": {
+      "A": "Despues de empezar su aplicacion",
+      "B": "Simultaneamente a los de imposicion de los respectivos tributos",
+      "C": "Solo tras informe vinculante de la AEAT",
+      "D": "Al final del ejercicio siguiente"
+    },
+    "answer": "B",
+    "explanation": "La ley exige que los acuerdos de aprobacion de ordenanzas se adopten simultaneamente a los de imposicion de los tributos respectivos.",
+    "reference": "TRLRHL art. 16"
+  },
+  {
+    "id": 14,
+    "topic": "Ordenanzas fiscales",
+    "question": "Segun los apuntes, la aprobacion de la ordenanza fiscal corresponde al:",
+    "options": {
+      "A": "Alcalde por decreto",
+      "B": "Pleno de la corporacion",
+      "C": "Interventor municipal",
+      "D": "Delegado de Hacienda"
+    },
+    "answer": "B",
+    "explanation": "La ordenanza fiscal es una norma reglamentaria cuya aprobacion corresponde al Pleno de la corporacion.",
+    "reference": "Sistema tributario local"
+  },
+  {
+    "id": 15,
+    "topic": "Ordenanzas fiscales",
+    "question": "La aprobacion inicial de la ordenanza fiscal tiene caracter:",
+    "options": {
+      "A": "Definitivo",
+      "B": "Provisional",
+      "C": "Cautelar",
+      "D": "Presunto"
+    },
+    "answer": "B",
+    "explanation": "La aprobacion inicial de la ordenanza fiscal tiene caracter provisional y debe publicarse y someterse a exposicion publica.",
+    "reference": "Sistema tributario local art. 17 LRHL"
+  },
+  {
+    "id": 16,
+    "topic": "Ordenanzas fiscales",
+    "question": "Los acuerdos de aprobacion provisional de ordenanzas fiscales deben exponerse al publico durante al menos:",
+    "options": {
+      "A": "10 dias",
+      "B": "15 dias",
+      "C": "30 dias",
+      "D": "2 meses"
+    },
+    "answer": "C",
+    "explanation": "Los acuerdos deben exponerse al publico al menos 30 dias desde la publicacion oficial.",
+    "reference": "Sistema tributario local art. 17 LRHL"
+  },
+  {
+    "id": 17,
+    "topic": "Ordenanzas fiscales",
+    "question": "Si no se presentan reclamaciones contra el acuerdo provisional de aprobacion de ordenanza fiscal:",
+    "options": {
+      "A": "Queda archivado",
+      "B": "Se entiende definitivamente adoptado",
+      "C": "Debe repetirse el tramite",
+      "D": "Entra en vigor automaticamente al año siguiente"
+    },
+    "answer": "B",
+    "explanation": "Si no se presentan reclamaciones, el acuerdo provisional se entiende definitivamente adoptado.",
+    "reference": "Sistema tributario local art. 17 LRHL"
+  },
+  {
+    "id": 18,
+    "topic": "Ordenanzas fiscales",
+    "question": "Contra las ordenanzas fiscales validamente aprobadas solo cabe interponer:",
+    "options": {
+      "A": "Recurso de reposicion",
+      "B": "Reclamacion economico-administrativa",
+      "C": "Recurso contencioso-administrativo",
+      "D": "Queja ante el defensor del pueblo"
+    },
+    "answer": "C",
+    "explanation": "Contra las ordenanzas fiscales validamente aprobadas unicamente cabe recurso contencioso-administrativo.",
+    "reference": "TRLRHL art. 19; Sistema tributario local"
+  },
+  {
+    "id": 19,
+    "topic": "Gestion tributaria",
+    "question": "La gestion, liquidacion, inspeccion y recaudacion de los tributos locales se realiza conforme a:",
+    "options": {
+      "A": "Solo lo previsto en las ordenanzas fiscales",
+      "B": "La LGT, las demas leyes estatales reguladoras y sus disposiciones de desarrollo",
+      "C": "Solo la LRBRL",
+      "D": "Solo acuerdos plenarios"
+    },
+    "answer": "B",
+    "explanation": "La gestion de los tributos locales se rige por la LGT y demas normativa estatal aplicable, adaptada en su caso por ordenanzas sin contravenir su contenido material.",
+    "reference": "TRLRHL art. 12"
+  },
+  {
+    "id": 20,
+    "topic": "Gestion tributaria",
+    "question": "Las entidades locales pueden adaptar mediante ordenanzas fiscales la normativa estatal de gestion tributaria local:",
+    "options": {
+      "A": "Sin limite alguno",
+      "B": "Al regimen de organizacion y funcionamiento interno propio, sin contravenir el contenido material de la normativa estatal",
+      "C": "Solo en materia sancionadora",
+      "D": "Solo con autorizacion judicial"
+    },
+    "answer": "B",
+    "explanation": "La adaptacion por ordenanza no puede contravenir el contenido material de la normativa estatal aplicable.",
+    "reference": "TRLRHL art. 12.2"
+  },
+  {
+    "id": 21,
+    "topic": "Gestion tributaria",
+    "question": "La competencia para evacuar consultas sobre gestion, liquidacion, inspeccion y recaudacion de tributos locales corresponde a:",
+    "options": {
+      "A": "La entidad que ejerza dichas funciones",
+      "B": "Siempre a la Direccion General de Tributos",
+      "C": "Siempre al alcalde",
+      "D": "Siempre a la comunidad autonoma"
+    },
+    "answer": "A",
+    "explanation": "La entidad que ejerza las funciones de gestion, liquidacion, inspeccion y recaudacion es la competente para evacuar esas consultas.",
+    "reference": "TRLRHL art. 13"
+  },
+  {
+    "id": 22,
+    "topic": "Revision de actos",
+    "question": "Contra los actos de aplicacion y efectividad de los tributos locales solo puede interponerse:",
+    "options": {
+      "A": "Recurso de alzada",
+      "B": "Recurso extraordinario de revision",
+      "C": "Recurso de reposicion en los terminos legales",
+      "D": "Recurso de casacion municipal"
+    },
+    "answer": "C",
+    "explanation": "El TRLRHL regula el recurso de reposicion como via impugnatoria frente a actos de aplicacion y efectividad de tributos y restantes ingresos de derecho publico locales.",
+    "reference": "TRLRHL art. 14"
+  },
+  {
+    "id": 23,
+    "topic": "Revision de actos",
+    "question": "Segun los apuntes, el recurso de reposicion previo a la reclamacion economico-administrativa tiene caracter:",
+    "options": {
+      "A": "Obligatorio siempre",
+      "B": "Potestativo",
+      "C": "Incompatible con cualquier otra via",
+      "D": "Solo util en IBI"
+    },
+    "answer": "B",
+    "explanation": "En los municipios en que proceda reclamacion economico-administrativa, el recurso de reposicion previo tiene caracter potestativo.",
+    "reference": "Sistema tributario local"
+  },
+  {
+    "id": 24,
+    "topic": "Revision de actos",
+    "question": "La reclamacion economico-administrativa en municipios de gran poblacion puede interponerse en el plazo de:",
+    "options": {
+      "A": "10 dias",
+      "B": "15 dias",
+      "C": "1 mes",
+      "D": "3 meses"
+    },
+    "answer": "C",
+    "explanation": "Los apuntes indican que la reclamacion economico-administrativa se interpone en el plazo de un mes desde la notificacion del acto o de la resolucion del recurso.",
+    "reference": "Sistema tributario local"
+  },
+  {
+    "id": 25,
+    "topic": "Revision de actos",
+    "question": "Contra la resolucion del recurso de reposicion local:",
+    "options": {
+      "A": "Cabe de nuevo reposicion",
+      "B": "Cabe directamente recurso contencioso-administrativo, sin nuevo recurso de reposicion",
+      "C": "Cabe recurso de alzada municipal",
+      "D": "Cabe recurso ante el interventor"
+    },
+    "answer": "B",
+    "explanation": "Contra la resolucion del recurso de reposicion no puede interponerse de nuevo este recurso; procede el contencioso-administrativo, sin perjuicio de los supuestos de reclamacion economico-administrativa previstos legalmente.",
+    "reference": "TRLRHL art. 14"
+  },
+  {
+    "id": 26,
+    "topic": "Revision de actos",
+    "question": "Entre los procedimientos especiales de revision aplicables en materia de tributos locales figuran:",
+    "options": {
+      "A": "Solo la nulidad de pleno derecho",
+      "B": "Nulidad de pleno derecho, lesividad, revocacion, rectificacion de errores y devolucion de ingresos indebidos",
+      "C": "Solo la rectificacion de errores materiales",
+      "D": "Solo la devolucion de ingresos indebidos"
+    },
+    "answer": "B",
+    "explanation": "Los procedimientos especiales de revision de la LGT resultan aplicables, incluyendo nulidad, lesividad, revocacion, rectificacion de errores y devolucion de ingresos indebidos.",
+    "reference": "TRLRHL art. 14; Sistema tributario local"
+  },
+  {
+    "id": 27,
+    "topic": "Tasas",
+    "question": "Las entidades locales pueden establecer tasas por:",
+    "options": {
+      "A": "Cualquier actividad economica privada del municipio",
+      "B": "La utilizacion privativa o el aprovechamiento especial del dominio publico local y la prestacion de determinados servicios o actividades",
+      "C": "La mera capacidad economica del vecino",
+      "D": "La venta de bienes patrimoniales"
+    },
+    "answer": "B",
+    "explanation": "Las tasas locales pueden exigirse por utilizacion privativa o aprovechamiento especial del dominio publico local y por la prestacion de servicios o realizacion de actividades en los terminos legales.",
+    "reference": "TRLRHL art. 20"
+  },
+  {
+    "id": 28,
+    "topic": "Tasas",
+    "question": "Son sujetos pasivos de las tasas, en concepto de contribuyentes, entre otros:",
+    "options": {
+      "A": "Solo personas juridicas",
+      "B": "Las personas fisicas, juridicas y entidades del art. 35.4 LGT que disfruten o soliciten el servicio en los terminos legales",
+      "C": "Solo la administracion autonoma",
+      "D": "Solo los propietarios de inmuebles urbanos"
+    },
+    "answer": "B",
+    "explanation": "La ley considera sujetos pasivos de tasas a personas fisicas, juridicas y entidades del art. 35.4 LGT en los supuestos previstos.",
+    "reference": "TRLRHL art. 23"
+  },
+  {
+    "id": 29,
+    "topic": "Tasas",
+    "question": "En las tasas establecidas por servicios o actividades que beneficien o afecten a ocupantes de viviendas o locales, tiene la condicion de sustituto del contribuyente:",
+    "options": {
+      "A": "El arrendatario siempre",
+      "B": "El propietario del inmueble",
+      "C": "La comunidad autonoma",
+      "D": "El interventor"
+    },
+    "answer": "B",
+    "explanation": "En ese supuesto la ley atribuye la condicion de sustituto del contribuyente a los propietarios del inmueble, quienes podran repercutir en su caso la cuota.",
+    "reference": "TRLRHL art. 23.2.a"
+  },
+  {
+    "id": 30,
+    "topic": "Tasas",
+    "question": "En las tasas por licencias urbanisticas, la ley considera sustitutos del contribuyente a:",
+    "options": {
+      "A": "Los propietarios de los solares siempre",
+      "B": "Los constructores y contratistas de obras",
+      "C": "Los notarios",
+      "D": "Los registradores"
+    },
+    "answer": "B",
+    "explanation": "La ley atribuye la condicion de sustitutos del contribuyente a los constructores y contratistas de obras en las tasas por licencias urbanisticas.",
+    "reference": "TRLRHL art. 23.2.b"
+  },
+  {
+    "id": 31,
+    "topic": "Tasas",
+    "question": "En las tasas por utilizacion privativa o aprovechamiento especial del dominio publico local, la cuantia se fija, con caracter general, tomando como referencia:",
+    "options": {
+      "A": "El valor catastral del bien afectado",
+      "B": "El valor de mercado de la utilidad derivada de la utilizacion o aprovechamiento, si el bien no fuese de dominio publico",
+      "C": "Un porcentaje fijo del presupuesto municipal",
+      "D": "El coste historico del bien"
+    },
+    "answer": "B",
+    "explanation": "La ley remite, con caracter general, al valor de mercado de la utilidad derivada de la utilizacion o aprovechamiento.",
+    "reference": "TRLRHL art. 24.1.a"
+  },
+  {
+    "id": 32,
+    "topic": "Tasas",
+    "question": "Las entidades locales pueden exigir las tasas en regimen de:",
+    "options": {
+      "A": "Solo liquidacion administrativa",
+      "B": "Autoliquidacion",
+      "C": "Estimacion objetiva",
+      "D": "Retencion en origen"
+    },
+    "answer": "B",
+    "explanation": "La ley permite expresamente exigir las tasas en regimen de autoliquidacion.",
+    "reference": "TRLRHL art. 27.1"
+  },
+  {
+    "id": 33,
+    "topic": "Tasas",
+    "question": "Las entidades locales pueden celebrar convenios de colaboracion en materia de tasas con:",
+    "options": {
+      "A": "Solo con la AEAT",
+      "B": "Entidades, instituciones y organizaciones representativas de los sujetos pasivos",
+      "C": "Solo con colegios notariales",
+      "D": "Solo con diputaciones"
+    },
+    "answer": "B",
+    "explanation": "La ley permite establecer convenios de colaboracion con entidades e instituciones representativas de los sujetos pasivos para simplificar obligaciones formales y materiales.",
+    "reference": "TRLRHL art. 27.2"
+  },
+  {
+    "id": 34,
+    "topic": "Contribuciones especiales",
+    "question": "El hecho imponible de las contribuciones especiales consiste en:",
+    "options": {
+      "A": "La mera titularidad de inmuebles",
+      "B": "La obtencion de un beneficio o aumento de valor de los bienes como consecuencia de obras publicas o establecimiento o ampliacion de servicios publicos locales",
+      "C": "La realizacion de cualquier actividad economica",
+      "D": "La prestacion general de servicios municipales ordinarios"
+    },
+    "answer": "B",
+    "explanation": "Ese es el hecho imponible legal de las contribuciones especiales.",
+    "reference": "TRLRHL art. 28"
+  },
+  {
+    "id": 35,
+    "topic": "Contribuciones especiales",
+    "question": "Las cantidades recaudadas por contribuciones especiales solo pueden destinarse a:",
+    "options": {
+      "A": "Cualquier gasto corriente del ayuntamiento",
+      "B": "Sufragar los gastos de la obra o servicio por cuya razon se exigieron",
+      "C": "Financiar la deuda publica municipal",
+      "D": "Subvencionar impuestos obligatorios"
+    },
+    "answer": "B",
+    "explanation": "La recaudacion por contribuciones especiales esta afectada al gasto de la obra o servicio que las justifica.",
+    "reference": "TRLRHL art. 29.3"
+  },
+  {
+    "id": 36,
+    "topic": "Contribuciones especiales",
+    "question": "Son sujetos pasivos de las contribuciones especiales:",
+    "options": {
+      "A": "Solo las personas juridicas",
+      "B": "Las personas fisicas, juridicas y entidades del art. 35.4 LGT especialmente beneficiadas",
+      "C": "Solo los ayuntamientos colindantes",
+      "D": "Solo los propietarios de solares urbanos"
+    },
+    "answer": "B",
+    "explanation": "La ley considera sujetos pasivos a las personas y entidades especialmente beneficiadas por la obra o servicio local.",
+    "reference": "TRLRHL art. 30"
+  },
+  {
+    "id": 37,
+    "topic": "Contribuciones especiales",
+    "question": "En las contribuciones especiales por obras o servicios que afecten a bienes inmuebles, se consideran especialmente beneficiados:",
+    "options": {
+      "A": "Los propietarios de los inmuebles",
+      "B": "Los arrendatarios siempre",
+      "C": "Solo las comunidades de propietarios",
+      "D": "Solo los usufructuarios"
+    },
+    "answer": "A",
+    "explanation": "La ley considera especialmente beneficiados a los propietarios de los bienes inmuebles afectados.",
+    "reference": "TRLRHL art. 30.2.a"
+  },
+  {
+    "id": 38,
+    "topic": "Contribuciones especiales",
+    "question": "Los interesados pueden formular recurso de reposicion en materia de contribuciones especiales sobre:",
+    "options": {
+      "A": "La procedencia de las contribuciones, el porcentaje del coste y las cuotas asignadas",
+      "B": "Solo sobre la fecha de pago",
+      "C": "Solo sobre la bonificacion",
+      "D": "Solo sobre el valor catastral"
+    },
+    "answer": "A",
+    "explanation": "La ley menciona expresamente esos tres objetos de impugnacion en el recurso de reposicion relativo a contribuciones especiales.",
+    "reference": "TRLRHL art. 35"
+  },
+  {
+    "id": 39,
+    "topic": "Contribuciones especiales",
+    "question": "Para constituir una asociacion administrativa de contribuyentes se requiere acuerdo por:",
+    "options": {
+      "A": "Mayoria simple de afectados",
+      "B": "Mayoria absoluta de afectados que representen, al menos, dos tercios de las cuotas",
+      "C": "Un tercio de afectados y la mitad de las cuotas",
+      "D": "Unanimidad de afectados"
+    },
+    "answer": "B",
+    "explanation": "La ley exige mayoria absoluta de afectados y que representen al menos dos tercios de las cuotas que deban satisfacerse.",
+    "reference": "TRLRHL art. 37"
+  },
+  {
+    "id": 40,
+    "topic": "Impuestos locales",
+    "question": "Los ayuntamientos exigiran obligatoriamente los siguientes impuestos:",
+    "options": {
+      "A": "IBI, IAE e IVTM",
+      "B": "IBI, ICIO e IIVTNU",
+      "C": "IAE, ICIO e IIVTNU",
+      "D": "IBI, tasas y contribuciones especiales"
+    },
+    "answer": "A",
+    "explanation": "Los impuestos municipales de exaccion obligatoria son IBI, IAE e IVTM.",
+    "reference": "TRLRHL art. 59; Sistema tributario local"
+  },
+  {
+    "id": 41,
+    "topic": "Impuestos locales",
+    "question": "Los ayuntamientos podran establecer y exigir potestativamente:",
+    "options": {
+      "A": "Solo el IAE",
+      "B": "ICIO e IIVTNU",
+      "C": "IBI e IVTM",
+      "D": "Solo el IBI"
+    },
+    "answer": "B",
+    "explanation": "Los impuestos municipales potestativos son el ICIO y el IIVTNU.",
+    "reference": "TRLRHL art. 59; Sistema tributario local"
+  },
+  {
+    "id": 42,
     "topic": "IBI",
     "question": "El IBI es un tributo:",
     "options": {
@@ -94,49 +584,819 @@
       "D": "Directo y subjetivo"
     },
     "answer": "B",
-    "explanation": "El IBI se configura como un impuesto directo de caracter real.",
-    "reference": "TRLRHL, art. 60"
+    "explanation": "El art. 60 TRLRHL define el IBI como tributo directo de caracter real.",
+    "reference": "TRLRHL art. 60"
   },
   {
-    "id": 8,
+    "id": 43,
     "topic": "IBI",
-    "question": "El hecho imponible del IBI consiste en:",
+    "question": "El IBI grava:",
     "options": {
-      "A": "La realizacion de obras en inmuebles",
-      "B": "La titularidad de determinados derechos sobre bienes inmuebles",
-      "C": "La compra de inmuebles urbanos",
-      "D": "La mera posesion de hecho"
+      "A": "La transmision de inmuebles",
+      "B": "El valor de los bienes inmuebles en los terminos de la ley",
+      "C": "Las obras sobre inmuebles",
+      "D": "La renta derivada de inmuebles"
     },
     "answer": "B",
-    "explanation": "El hecho imponible del IBI es la titularidad de los derechos previstos legalmente sobre los bienes inmuebles.",
-    "reference": "TRLRHL, art. 61"
+    "explanation": "El IBI grava el valor de los bienes inmuebles en los terminos establecidos legalmente.",
+    "reference": "TRLRHL art. 60"
   },
   {
-    "id": 9,
+    "id": 44,
+    "topic": "IBI",
+    "question": "Constituye hecho imponible del IBI la titularidad de alguno de los siguientes derechos sobre bienes inmuebles:",
+    "options": {
+      "A": "Concesion administrativa, derecho real de superficie, usufructo o propiedad",
+      "B": "Solo propiedad y posesion",
+      "C": "Solo arrendamiento y uso",
+      "D": "Solo concesion administrativa y arrendamiento"
+    },
+    "answer": "A",
+    "explanation": "La ley enumera concesion administrativa, derecho real de superficie, derecho real de usufructo y derecho de propiedad.",
+    "reference": "TRLRHL art. 61.1"
+  },
+  {
+    "id": 45,
+    "topic": "IBI",
+    "question": "La realizacion del hecho imponible que corresponda, por el orden legalmente establecido, determina:",
+    "options": {
+      "A": "La sujecion simultanea a todas las modalidades",
+      "B": "La no sujecion del inmueble a las restantes modalidades previstas en el mismo articulo",
+      "C": "La exencion automatica",
+      "D": "La bonificacion potestativa"
+    },
+    "answer": "B",
+    "explanation": "El orden legal de los derechos del art. 61 determina la no sujecion del inmueble a las restantes modalidades del propio articulo.",
+    "reference": "TRLRHL art. 61.1"
+  },
+  {
+    "id": 46,
+    "topic": "IBI",
+    "question": "A efectos del IBI, los bienes inmuebles se clasifican en:",
+    "options": {
+      "A": "Urbanos, suburbanos y especiales",
+      "B": "Urbanos, rusticos y de caracteristicas especiales",
+      "C": "Rusticos, industriales y especiales",
+      "D": "Urbanos, residenciales y dotacionales"
+    },
+    "answer": "B",
+    "explanation": "La clasificacion a efectos del impuesto distingue inmuebles urbanos, rusticos y de caracteristicas especiales.",
+    "reference": "Sistema tributario local"
+  },
+  {
+    "id": 47,
+    "topic": "IBI",
+    "question": "El periodo impositivo del IBI coincide con:",
+    "options": {
+      "A": "El trimestre natural",
+      "B": "El semestre natural",
+      "C": "El año natural",
+      "D": "El año academico"
+    },
+    "answer": "C",
+    "explanation": "El periodo impositivo del IBI coincide con el año natural.",
+    "reference": "TRLRHL art. 75.2; Sistema tributario local"
+  },
+  {
+    "id": 48,
+    "topic": "IBI",
+    "question": "El IBI se devenga:",
+    "options": {
+      "A": "El ultimo dia del periodo impositivo",
+      "B": "El primer dia del periodo impositivo",
+      "C": "Con la liquidacion anual",
+      "D": "Con la emision del documento de cobro"
+    },
+    "answer": "B",
+    "explanation": "La ley dispone que el IBI se devenga el primer dia del periodo impositivo.",
+    "reference": "TRLRHL art. 75.1"
+  },
+  {
+    "id": 49,
+    "topic": "IBI",
+    "question": "La gestion catastral del IBI corresponde a:",
+    "options": {
+      "A": "Al ayuntamiento",
+      "B": "Al Catastro Inmobiliario",
+      "C": "A la diputacion provincial",
+      "D": "A la comunidad autonoma"
+    },
+    "answer": "B",
+    "explanation": "La gestion catastral corresponde al Catastro Inmobiliario y finaliza con la determinacion de la base imponible.",
+    "reference": "Sistema tributario local"
+  },
+  {
+    "id": 50,
+    "topic": "IBI",
+    "question": "La gestion tributaria del IBI corresponde, con caracter general, a:",
+    "options": {
+      "A": "La AEAT",
+      "B": "El ayuntamiento, sin perjuicio de delegaciones posibles",
+      "C": "La comunidad autonoma",
+      "D": "El Registro de la Propiedad"
+    },
+    "answer": "B",
+    "explanation": "La gestion tributaria del impuesto corresponde al ayuntamiento, sin perjuicio de las posibles delegaciones.",
+    "reference": "TRLRHL art. 77; Sistema tributario local"
+  },
+  {
+    "id": 51,
+    "topic": "IBI",
+    "question": "Entre las competencias municipales de gestion tributaria del IBI se encuentra:",
+    "options": {
+      "A": "Aprobar la Ley del Catastro",
+      "B": "Reconocer o denegar exenciones y bonificaciones",
+      "C": "Determinar la base imponible catastral",
+      "D": "Modificar la clasificacion urbanistica del suelo"
+    },
+    "answer": "B",
+    "explanation": "La gestion tributaria municipal del IBI comprende, entre otras funciones, el reconocimiento y denegacion de exenciones y bonificaciones.",
+    "reference": "TRLRHL art. 77; Sistema tributario local"
+  },
+  {
+    "id": 52,
     "topic": "IAE",
-    "question": "El IAE grava:",
+    "question": "El IAE es un tributo:",
     "options": {
-      "A": "La titularidad de vehiculos",
-      "B": "El ejercicio de actividades empresariales, profesionales o artisticas",
-      "C": "La realizacion de construcciones",
-      "D": "El incremento de valor de terrenos"
+      "A": "Indirecto y subjetivo",
+      "B": "Directo y de caracter real",
+      "C": "Indirecto y real",
+      "D": "Directo y personal"
     },
     "answer": "B",
-    "explanation": "El IAE grava el ejercicio de actividades empresariales, profesionales o artisticas.",
-    "reference": "TRLRHL"
+    "explanation": "El art. 78 define el IAE como un tributo directo de caracter real.",
+    "reference": "TRLRHL art. 78"
   },
   {
-    "id": 10,
+    "id": 53,
+    "topic": "IAE",
+    "question": "El hecho imponible del IAE consiste en:",
+    "options": {
+      "A": "La obtencion de beneficios empresariales",
+      "B": "El mero ejercicio, en territorio nacional, de actividades empresariales, profesionales o artisticas",
+      "C": "La titularidad de locales de negocio",
+      "D": "La emision de facturas"
+    },
+    "answer": "B",
+    "explanation": "El IAE grava el mero ejercicio de actividades empresariales, profesionales o artisticas en territorio nacional.",
+    "reference": "TRLRHL art. 78.1"
+  },
+  {
+    "id": 54,
+    "topic": "IAE",
+    "question": "En el IAE, las actividades se gravan:",
+    "options": {
+      "A": "Solo si se ejercen en local determinado",
+      "B": "Se ejerzan o no en local determinado y esten o no especificadas en las tarifas",
+      "C": "Solo si producen beneficio efectivo",
+      "D": "Solo si se desarrollan por sociedades"
+    },
+    "answer": "B",
+    "explanation": "La ley precisa que se gravan se ejerzan o no en local determinado y esten o no especificadas en las tarifas.",
+    "reference": "TRLRHL art. 78.1; Sistema tributario local"
+  },
+  {
+    "id": 55,
+    "topic": "IAE",
+    "question": "Entre las exenciones destacadas del IAE figuran:",
+    "options": {
+      "A": "Todas las sociedades mercantiles",
+      "B": "Las personas fisicas y ciertos sujetos con importe neto de cifra de negocios inferior a 1 millon de euros",
+      "C": "Todos los no residentes",
+      "D": "Solo las entidades publicas"
+    },
+    "answer": "B",
+    "explanation": "Los apuntes destacan la exencion de las personas fisicas y de determinados sujetos cuyo importe neto de la cifra de negocios sea inferior a 1 millon de euros.",
+    "reference": "TRLRHL art. 82; Sistema tributario local"
+  },
+  {
+    "id": 56,
+    "topic": "IAE",
+    "question": "Son sujetos pasivos del IAE:",
+    "options": {
+      "A": "Solo personas juridicas residentes",
+      "B": "Personas fisicas, juridicas o entidades del art. 35.4 LGT que realicen en territorio nacional actividades que originan el hecho imponible",
+      "C": "Solo sociedades con local abierto al publico",
+      "D": "Solo empresarios con beneficios"
+    },
+    "answer": "B",
+    "explanation": "Esa es la definicion legal de sujeto pasivo del IAE.",
+    "reference": "TRLRHL art. 83"
+  },
+  {
+    "id": 57,
+    "topic": "IAE",
+    "question": "La cuota tributaria del IAE resulta de aplicar:",
+    "options": {
+      "A": "Solo un tipo de gravamen municipal sobre base imponible",
+      "B": "Las tarifas del impuesto, los coeficientes y las bonificaciones previstos legalmente y, en su caso, en ordenanza",
+      "C": "Solo una estimacion de beneficios",
+      "D": "Solo el elemento tributario superficie"
+    },
+    "answer": "B",
+    "explanation": "La cuota tributaria del IAE es la resultante de aplicar tarifas, coeficientes y bonificaciones en los terminos de la ley y, en su caso, de la ordenanza.",
+    "reference": "TRLRHL art. 84; Sistema tributario local"
+  },
+  {
+    "id": 58,
+    "topic": "IAE",
+    "question": "En el IAE:",
+    "options": {
+      "A": "Existe base imponible y tipo de gravamen como en un impuesto clasico ad valorem",
+      "B": "No existe base imponible ni tipo de gravamen en sentido estricto",
+      "C": "Solo existe base imponible si hay local",
+      "D": "No existen cuotas minimas"
+    },
+    "answer": "B",
+    "explanation": "Los apuntes destacan que no existe base imponible ni tipo de gravamen, aunque no sea un impuesto de cuota fija pura.",
+    "reference": "Sistema tributario local"
+  },
+  {
+    "id": 59,
     "topic": "IVTM",
     "question": "El IVTM grava:",
     "options": {
-      "A": "La circulacion de vehiculos de traccion mecanica aptos para circular por vias publicas",
-      "B": "La compra de vehiculos nuevos",
-      "C": "La transmision de vehiculos usados",
-      "D": "La importacion de vehiculos"
+      "A": "La transmision de vehiculos",
+      "B": "La titularidad de los vehiculos de traccion mecanica aptos para circular por las vias publicas",
+      "C": "La fabricacion de vehiculos",
+      "D": "La conduccion habitual de vehiculos"
+    },
+    "answer": "B",
+    "explanation": "El IVTM grava la titularidad de vehiculos de traccion mecanica aptos para circular por vias publicas.",
+    "reference": "TRLRHL; Sistema tributario local"
+  },
+  {
+    "id": 60,
+    "topic": "IVTM",
+    "question": "El IVTM es un impuesto de exaccion:",
+    "options": {
+      "A": "Potestativa",
+      "B": "Obligatoria",
+      "C": "Estatal cedida",
+      "D": "Suprimida"
+    },
+    "answer": "B",
+    "explanation": "El IVTM forma parte de los impuestos municipales de exaccion obligatoria.",
+    "reference": "TRLRHL art. 59; Sistema tributario local"
+  },
+  {
+    "id": 61,
+    "topic": "IVTM",
+    "question": "Segun los apuntes, la ordenanza fiscal del IVTM puede regular:",
+    "options": {
+      "A": "La definicion del hecho imponible",
+      "B": "Los coeficientes de incremento y beneficios fiscales aplicables",
+      "C": "La condicion de vehiculo apto para circular",
+      "D": "La normativa de trafico estatal"
+    },
+    "answer": "B",
+    "explanation": "Dentro del margen legal, la ordenanza del IVTM puede regular coeficientes de incremento y beneficios fiscales aplicables.",
+    "reference": "Sistema tributario local"
+  },
+  {
+    "id": 62,
+    "topic": "ICIO",
+    "question": "El ICIO es un impuesto:",
+    "options": {
+      "A": "Obligatorio para todos los ayuntamientos sin ordenanza",
+      "B": "Potestativo que requiere ordenanza fiscal",
+      "C": "Autonomico cedido",
+      "D": "Estatal directo"
+    },
+    "answer": "B",
+    "explanation": "El ICIO es un impuesto municipal potestativo, por lo que requiere acuerdo de imposicion y ordenanza fiscal.",
+    "reference": "TRLRHL art. 59; Sistema tributario local"
+  },
+  {
+    "id": 63,
+    "topic": "ICIO",
+    "question": "El ICIO se devenga:",
+    "options": {
+      "A": "Cuando se concede la licencia en todo caso",
+      "B": "En el momento de iniciarse la construccion, instalacion u obra, aun cuando no se haya obtenido licencia",
+      "C": "Al finalizar la obra",
+      "D": "Al aprobarse la ordenanza fiscal"
+    },
+    "answer": "B",
+    "explanation": "El art. 102.4 TRLRHL dispone que el impuesto se devenga al iniciarse la construccion, instalacion u obra, aun sin licencia.",
+    "reference": "TRLRHL art. 102.4; Sistema tributario local"
+  },
+  {
+    "id": 64,
+    "topic": "ICIO",
+    "question": "La liquidacion provisional del ICIO tiene la consideracion de:",
+    "options": {
+      "A": "Liquidacion definitiva irrevisable",
+      "B": "Pago a cuenta de la liquidacion definitiva",
+      "C": "Bonificacion de oficio",
+      "D": "Autoliquidacion sancionadora"
+    },
+    "answer": "B",
+    "explanation": "La ley dispone que la liquidacion provisional tiene la consideracion de pago a cuenta de la liquidacion definitiva.",
+    "reference": "TRLRHL art. 103.1; Sistema tributario local"
+  },
+  {
+    "id": 65,
+    "topic": "ICIO",
+    "question": "La liquidacion provisional del ICIO puede practicarse:",
+    "options": {
+      "A": "Solo cuando se concede licencia",
+      "B": "Cuando se concede la licencia, cuando se presenta declaracion responsable o comunicacion previa, o cuando se inicia la obra sin licencia",
+      "C": "Solo al finalizar la obra",
+      "D": "Solo si lo solicita el interesado"
+    },
+    "answer": "B",
+    "explanation": "Los apuntes recogen esos tres supuestos de practica de la liquidacion provisional del ICIO.",
+    "reference": "TRLRHL art. 103.1; Sistema tributario local"
+  },
+  {
+    "id": 66,
+    "topic": "ICIO",
+    "question": "La base de la liquidacion provisional del ICIO puede determinarse, segun la ley y la ordenanza, a partir de:",
+    "options": {
+      "A": "Solo el valor catastral",
+      "B": "El presupuesto presentado visado si procede o los indices o modulos establecidos en la ordenanza",
+      "C": "Solo el coste final comprobado",
+      "D": "Solo la declaracion del tecnico municipal"
+    },
+    "answer": "B",
+    "explanation": "La liquidacion provisional a cuenta puede basarse en el presupuesto presentado o en los indices o modulos que establezca la ordenanza.",
+    "reference": "TRLRHL art. 103.1; Sistema tributario local"
+  },
+  {
+    "id": 67,
+    "topic": "ICIO",
+    "question": "La liquidacion definitiva del ICIO se realiza:",
+    "options": {
+      "A": "Antes de iniciar la obra",
+      "B": "Una vez finalizada la construccion, instalacion u obra",
+      "C": "Solo si hay licencia urbanistica",
+      "D": "Cada trimestre"
+    },
+    "answer": "B",
+    "explanation": "La liquidacion definitiva se practica una vez finalizada la obra, tras la oportuna comprobacion administrativa.",
+    "reference": "Sistema tributario local"
+  },
+  {
+    "id": 68,
+    "topic": "ICIO",
+    "question": "El ICIO puede exigirse en regimen de autoliquidacion:",
+    "options": {
+      "A": "Nunca",
+      "B": "Si asi lo establece la ordenanza fiscal",
+      "C": "Solo en municipios de gran poblacion",
+      "D": "Solo con autorizacion autonómica"
+    },
+    "answer": "B",
+    "explanation": "El impuesto puede exigirse en regimen de autoliquidacion si la ordenanza fiscal asi lo dispone.",
+    "reference": "Sistema tributario local"
+  },
+  {
+    "id": 69,
+    "topic": "IIVTNU",
+    "question": "El IIVTNU es un impuesto:",
+    "options": {
+      "A": "Obligatorio para todos los municipios",
+      "B": "Potestativo que requiere ordenanza fiscal",
+      "C": "Indirecto estatal",
+      "D": "De exaccion autonómica"
+    },
+    "answer": "B",
+    "explanation": "El IIVTNU es potestativo y requiere ordenanza fiscal para su establecimiento y exigencia.",
+    "reference": "TRLRHL art. 59; Sistema tributario local"
+  },
+  {
+    "id": 70,
+    "topic": "IIVTNU",
+    "question": "El IIVTNU grava:",
+    "options": {
+      "A": "La transmision de cualquier bien mueble",
+      "B": "El incremento de valor de los terrenos que se ponga de manifiesto con la transmision de su propiedad o con la constitucion o transmision de ciertos derechos reales de goce",
+      "C": "La renta obtenida por arrendar terrenos urbanos",
+      "D": "El valor catastral de los edificios"
+    },
+    "answer": "B",
+    "explanation": "Ese es el hecho imponible legal del IIVTNU.",
+    "reference": "TRLRHL art. 104.1"
+  },
+  {
+    "id": 71,
+    "topic": "IIVTNU",
+    "question": "El IIVTNU grava incrementos de valor manifestados sobre bienes inmuebles que, a efectos del IBI, sean:",
+    "options": {
+      "A": "Solo rusticos",
+      "B": "Urbanos o de caracteristicas especiales",
+      "C": "Solo de dominio publico",
+      "D": "Siempre cualquiera que sea su naturaleza"
+    },
+    "answer": "B",
+    "explanation": "El impuesto solo grava los incrementos manifestados sobre bienes inmuebles que deban tener la consideracion de urbanos o de caracteristicas especiales a efectos del IBI.",
+    "reference": "TRLRHL art. 104.1; Sistema tributario local"
+  },
+  {
+    "id": 72,
+    "topic": "IIVTNU",
+    "question": "Entre los supuestos de no sujecion del IIVTNU se encuentra, conforme a los apuntes:",
+    "options": {
+      "A": "La venta a perdidas cuando se acredita que no existe incremento",
+      "B": "Toda transmision de terreno rustico",
+      "C": "Toda transmision gratuita",
+      "D": "Toda transmision entre familiares"
     },
     "answer": "A",
-    "explanation": "El IVTM grava la titularidad de vehiculos de traccion mecanica aptos para circular por las vias publicas.",
-    "reference": "TRLRHL"
+    "explanation": "Los apuntes destacan la no sujecion cuando se acredita que no existe incremento de valor, por ejemplo en ventas a perdidas.",
+    "reference": "TRLRHL art. 104.3 y ss.; Sistema tributario local"
+  },
+  {
+    "id": 73,
+    "topic": "Tributos obligatorios y potestativos",
+    "question": "Es un tributo municipal de exaccion obligatoria:",
+    "options": {
+      "A": "ICIO",
+      "B": "IIVTNU",
+      "C": "IBI",
+      "D": "Contribucion especial"
+    },
+    "answer": "C",
+    "explanation": "El IBI es uno de los impuestos municipales de exaccion obligatoria.",
+    "reference": "TRLRHL art. 59; Sistema tributario local"
+  },
+  {
+    "id": 74,
+    "topic": "Tributos obligatorios y potestativos",
+    "question": "Es un impuesto municipal potestativo:",
+    "options": {
+      "A": "IAE",
+      "B": "IVTM",
+      "C": "ICIO",
+      "D": "IBI"
+    },
+    "answer": "C",
+    "explanation": "El ICIO es un impuesto potestativo municipal.",
+    "reference": "TRLRHL art. 59; Sistema tributario local"
+  },
+  {
+    "id": 75,
+    "topic": "Municipios de gran poblacion",
+    "question": "En los municipios de gran poblacion existe un organo especializado para:",
+    "options": {
+      "A": "Aprobar presupuestos estatales",
+      "B": "Resolver reclamaciones economico-administrativas sobre actos de gestion, liquidacion, recaudacion e inspeccion de tributos e ingresos de derecho publico",
+      "C": "Determinar el valor catastral",
+      "D": "Redactar el planeamiento urbanistico"
+    },
+    "answer": "B",
+    "explanation": "Los apuntes recogen la existencia de un organo especializado para la resolucion de reclamaciones economico-administrativas en municipios de gran poblacion.",
+    "reference": "Sistema tributario local; LRBRL art. 137"
+  },
+  {
+    "id": 76,
+    "topic": "Municipios de gran poblacion",
+    "question": "Entre las funciones del organo economico-administrativo municipal en municipios de gran poblacion esta:",
+    "options": {
+      "A": "Dictar ordenanzas fiscales directamente",
+      "B": "Dictaminar sobre proyectos de ordenanzas fiscales",
+      "C": "Aprobar los presupuestos generales del Estado",
+      "D": "Conceder licencias urbanisticas"
+    },
+    "answer": "B",
+    "explanation": "Los apuntes incluyen entre sus funciones el dictamen sobre proyectos de ordenanzas fiscales.",
+    "reference": "Sistema tributario local"
+  },
+  {
+    "id": 77,
+    "topic": "Principios de hacienda local",
+    "question": "Segun los apuntes, el art. 105 LBRL establece como principio basico de la hacienda local:",
+    "options": {
+      "A": "La suficiencia financiera de las entidades locales",
+      "B": "La dependencia absoluta de transferencias estatales",
+      "C": "La prohibicion de tributos propios",
+      "D": "La inexistencia de potestad tributaria derivada"
+    },
+    "answer": "A",
+    "explanation": "Los apuntes subrayan el principio de suficiencia financiera de las haciendas locales.",
+    "reference": "Sistema tributario local, introduccion"
+  },
+  {
+    "id": 78,
+    "topic": "Principios de hacienda local",
+    "question": "Segun los apuntes, las haciendas locales se nutren fundamentalmente de:",
+    "options": {
+      "A": "Tributos propios y participaciones en tributos del Estado y de las CCAA",
+      "B": "Unicamente multas y sanciones",
+      "C": "Solo patrimonio privado",
+      "D": "Solo operaciones de credito"
+    },
+    "answer": "A",
+    "explanation": "Ese es uno de los principios basicos destacados en los apuntes sobre hacienda local.",
+    "reference": "Sistema tributario local, introduccion"
+  },
+  {
+    "id": 79,
+    "topic": "Ingresos de derecho privado",
+    "question": "Constituyen ingresos de derecho privado de las entidades locales:",
+    "options": {
+      "A": "Solo sus tasas",
+      "B": "Los rendimientos o productos derivados de su patrimonio y las adquisiciones a titulo de herencia, legado o donacion",
+      "C": "Solo las multas de trafico",
+      "D": "Solo las participaciones en tributos del Estado"
+    },
+    "answer": "B",
+    "explanation": "Asi lo define expresamente el art. 3 TRLRHL.",
+    "reference": "TRLRHL art. 3"
+  },
+  {
+    "id": 80,
+    "topic": "Multas y sanciones",
+    "question": "Entre los recursos de las entidades locales se incluye:",
+    "options": {
+      "A": "El producto de las multas y sanciones en el ambito de sus competencias",
+      "B": "Solo las sanciones penales",
+      "C": "Solo las multas estatales cedidas",
+      "D": "Ninguna multa o sancion"
+    },
+    "answer": "A",
+    "explanation": "Las multas y sanciones en el ambito competencial local forman parte de los recursos enumerados en el art. 2 TRLRHL.",
+    "reference": "TRLRHL art. 2.1.g"
+  },
+  {
+    "id": 81,
+    "topic": "Recargos",
+    "question": "Fuera de los supuestos expresamente previstos en la ley, las entidades locales pueden establecer recargos sobre impuestos propios de la comunidad autonoma u otras entidades locales:",
+    "options": {
+      "A": "Libremente",
+      "B": "En los casos expresamente previstos en las leyes de la comunidad autonoma",
+      "C": "Solo con autorizacion del Senado",
+      "D": "Nunca"
+    },
+    "answer": "B",
+    "explanation": "La ley solo permite esos recargos en los casos expresamente previstos por las leyes de la comunidad autonoma.",
+    "reference": "TRLRHL art. 38.2"
+  },
+  {
+    "id": 82,
+    "topic": "Tasas y contribuciones especiales",
+    "question": "Las tasas por la prestacion de servicios:",
+    "options": {
+      "A": "Excluyen siempre las contribuciones especiales",
+      "B": "No excluyen la exaccion de contribuciones especiales por el establecimiento o ampliacion de aquellos servicios",
+      "C": "Se transforman automaticamente en precios publicos",
+      "D": "Solo existen junto a impuestos municipales"
+    },
+    "answer": "B",
+    "explanation": "La ley establece expresamente que las tasas por servicios no excluyen las contribuciones especiales por el establecimiento o ampliacion de aquellos.",
+    "reference": "TRLRHL art. 22 y ss."
+  },
+  {
+    "id": 83,
+    "topic": "Ordenanzas fiscales",
+    "question": "Las ordenanzas fiscales pueden contener normas especificamente reguladoras de:",
+    "options": {
+      "A": "Gestion, liquidacion, inspeccion y recaudacion de los tributos locales",
+      "B": "Competencias autonómicas en materia de sanidad",
+      "C": "Solo regimen disciplinario del personal",
+      "D": "Solo presupuestos generales del Estado"
+    },
+    "answer": "A",
+    "explanation": "El art. 15.3 permite aprobar ordenanzas especificamente reguladoras de la gestion, liquidacion, inspeccion y recaudacion de los tributos locales.",
+    "reference": "TRLRHL art. 15.3"
+  },
+  {
+    "id": 84,
+    "topic": "Ordenanzas fiscales",
+    "question": "Las ordenanzas fiscales no pueden modificar libremente ciertos elementos esenciales de los tributos por aplicacion del principio de:",
+    "options": {
+      "A": "Territorialidad",
+      "B": "Reserva de ley",
+      "C": "Capacidad economica",
+      "D": "Irretroactividad penal"
+    },
+    "answer": "B",
+    "explanation": "Los apuntes recuerdan que la ordenanza no puede modificar la regulacion de elementos esenciales reservados a la ley.",
+    "reference": "Sistema tributario local"
+  },
+  {
+    "id": 85,
+    "topic": "IBI",
+    "question": "Entre los derechos cuya titularidad puede constituir hecho imponible del IBI se incluye:",
+    "options": {
+      "A": "El derecho real de usufructo",
+      "B": "El arrendamiento urbano",
+      "C": "La simple posesion",
+      "D": "La expectativa hereditaria"
+    },
+    "answer": "A",
+    "explanation": "El derecho real de usufructo es uno de los derechos que integran el hecho imponible del IBI.",
+    "reference": "TRLRHL art. 61.1"
+  },
+  {
+    "id": 86,
+    "topic": "IAE",
+    "question": "Segun los apuntes, las cuotas del IAE se determinan en las tarifas del impuesto y tienen caracter:",
+    "options": {
+      "A": "Variable segun beneficio real",
+      "B": "Fijo en tarifas, sin atender a beneficios ciertos sino presuntos",
+      "C": "Exclusivamente porcentual",
+      "D": "Unicamente trimestral"
+    },
+    "answer": "B",
+    "explanation": "Los apuntes senalan que las tarifas fijan cuotas y que el impuesto se estructura al margen de beneficios ciertos.",
+    "reference": "Sistema tributario local"
+  },
+  {
+    "id": 87,
+    "topic": "IAE",
+    "question": "Las tarifas del IAE y la instruccion para su aplicacion se aprueban por:",
+    "options": {
+      "A": "Ordenanza fiscal municipal",
+      "B": "Real decreto legislativo del Gobierno",
+      "C": "Acuerdo de diputacion provincial",
+      "D": "Resolucion de la DGT"
+    },
+    "answer": "B",
+    "explanation": "El art. 85 TRLRHL establece que las tarifas del impuesto y la instruccion para su aplicacion se aprobaran por real decreto legislativo del Gobierno.",
+    "reference": "TRLRHL art. 85; Sistema tributario local"
+  },
+  {
+    "id": 88,
+    "topic": "ICIO",
+    "question": "Si una obra se realiza sin licencia, el ICIO:",
+    "options": {
+      "A": "No se devenga nunca",
+      "B": "Se devenga igualmente al iniciarse la obra",
+      "C": "Se devenga solo si lo pide el constructor",
+      "D": "Queda sustituido por una tasa"
+    },
+    "answer": "B",
+    "explanation": "El inicio de la construccion, instalacion u obra determina el devengo del ICIO aun sin licencia.",
+    "reference": "TRLRHL art. 102.4; Sistema tributario local"
+  },
+  {
+    "id": 89,
+    "topic": "IIVTNU",
+    "question": "El IIVTNU grava el incremento de valor que se ponga de manifiesto con ocasion de:",
+    "options": {
+      "A": "La mera tenencia del terreno",
+      "B": "La transmision de la propiedad o la constitucion o transmision de un derecho real de goce limitativo del dominio",
+      "C": "La calificacion urbanistica del suelo",
+      "D": "El arrendamiento del terreno"
+    },
+    "answer": "B",
+    "explanation": "Ese es el presupuesto basico del impuesto segun el art. 104.1 TRLRHL.",
+    "reference": "TRLRHL art. 104.1"
+  },
+  {
+    "id": 90,
+    "topic": "Recurso de reposicion",
+    "question": "El plazo maximo de notificacion de la resolucion expresa del recurso de reposicion local, segun el texto legal mostrado, es de:",
+    "options": {
+      "A": "5 dias",
+      "B": "10 dias desde que aquella se produzca",
+      "C": "15 dias habiles",
+      "D": "1 mes"
+    },
+    "answer": "B",
+    "explanation": "La resolucion expresa del recurso de reposicion debe notificarse en el plazo maximo de 10 dias desde que se produzca.",
+    "reference": "TRLRHL art. 14"
+  },
+  {
+    "id": 91,
+    "topic": "Revision de actos",
+    "question": "No seran en ningun caso revisables en via especial los actos administrativos:",
+    "options": {
+      "A": "Que no hayan sido notificados",
+      "B": "Confirmados por sentencia judicial firme",
+      "C": "Que afecten a IBI",
+      "D": "Que afecten a tasas"
+    },
+    "answer": "B",
+    "explanation": "La ley excluye de revision los actos administrativos confirmados por sentencia judicial firme.",
+    "reference": "TRLRHL art. 14.1.b"
+  },
+  {
+    "id": 92,
+    "topic": "Tasas",
+    "question": "En las tasas por utilizacion privativa o aprovechamiento especial por entradas de vehiculos a traves de aceras, tienen la condicion de sustitutos del contribuyente:",
+    "options": {
+      "A": "Los propietarios de las fincas y locales a que den acceso dichas entradas",
+      "B": "Los arrendatarios de los locales siempre",
+      "C": "La policia local",
+      "D": "Las companias aseguradoras"
+    },
+    "answer": "A",
+    "explanation": "La ley atribuye la condicion de sustitutos a los propietarios de las fincas y locales a que den acceso dichas entradas.",
+    "reference": "TRLRHL art. 23.2.d"
+  },
+  {
+    "id": 93,
+    "topic": "Tasas",
+    "question": "En las tasas por servicios de prevencion y extincion de incendios, mantenimiento del servicio y salvamentos, el sustituto del contribuyente puede ser:",
+    "options": {
+      "A": "El alcalde",
+      "B": "La entidad o sociedad aseguradora del riesgo",
+      "C": "El registrador de la propiedad",
+      "D": "El propietario del local siempre"
+    },
+    "answer": "B",
+    "explanation": "La ley atribuye la condicion de sustituto a las entidades o sociedades aseguradoras del riesgo en ese ambito.",
+    "reference": "TRLRHL art. 23.2.c"
+  },
+  {
+    "id": 94,
+    "topic": "Contribuciones especiales",
+    "question": "Se consideran obras y servicios locales, entre otros:",
+    "options": {
+      "A": "Solo los realizados directamente por el ayuntamiento con medios propios",
+      "B": "Los realizados por la entidad local dentro de sus competencias y tambien los atribuidos o delegados o realizados por otras entidades con aportacion economica local en los terminos legales",
+      "C": "Solo los que afecten a bienes patrimoniales",
+      "D": "Solo los urbanisticos"
+    },
+    "answer": "B",
+    "explanation": "La ley define ampliamente las obras y servicios locales a estos efectos.",
+    "reference": "TRLRHL art. 29"
+  },
+  {
+    "id": 95,
+    "topic": "Contribuciones especiales",
+    "question": "No perderan la condicion de obras o servicios locales, aunque sean realizados por concesionarios con aportaciones de la entidad local:",
+    "options": {
+      "A": "Verdadero",
+      "B": "Falso",
+      "C": "Solo si hay subvencion estatal",
+      "D": "Solo en municipios de gran poblacion"
+    },
+    "answer": "A",
+    "explanation": "La ley mantiene la consideracion de obras o servicios locales en esos casos.",
+    "reference": "TRLRHL art. 29.2"
+  },
+  {
+    "id": 96,
+    "topic": "IBI",
+    "question": "La ley del IBI se regula en los articulos:",
+    "options": {
+      "A": "60 a 78 TRLRHL",
+      "B": "78 a 91 TRLRHL",
+      "C": "100 a 103 TRLRHL",
+      "D": "104 a 110 TRLRHL"
+    },
+    "answer": "A",
+    "explanation": "Los apuntes sitian la regulacion del IBI en los arts. 60 a 78 del TRLRHL.",
+    "reference": "Sistema tributario local"
+  },
+  {
+    "id": 97,
+    "topic": "IAE",
+    "question": "La ley del IAE se regula en los articulos:",
+    "options": {
+      "A": "60 a 78 TRLRHL",
+      "B": "78 a 91 TRLRHL",
+      "C": "100 a 103 TRLRHL",
+      "D": "104 a 110 TRLRHL"
+    },
+    "answer": "B",
+    "explanation": "Los apuntes sitian la regulacion del IAE en los arts. 78 a 91 del TRLRHL.",
+    "reference": "Sistema tributario local"
+  },
+  {
+    "id": 98,
+    "topic": "ICIO",
+    "question": "Segun los apuntes, el ICIO se regula en los articulos:",
+    "options": {
+      "A": "78 a 91 TRLRHL",
+      "B": "92 a 99 TRLRHL",
+      "C": "100 a 103 TRLRHL",
+      "D": "104 a 110 TRLRHL"
+    },
+    "answer": "C",
+    "explanation": "Los apuntes situan el ICIO en los arts. 100 a 103 del TRLRHL.",
+    "reference": "Sistema tributario local"
+  },
+  {
+    "id": 99,
+    "topic": "IIVTNU",
+    "question": "Segun los apuntes, el IIVTNU se regula en los articulos:",
+    "options": {
+      "A": "90 a 99 TRLRHL",
+      "B": "100 a 103 TRLRHL",
+      "C": "104 a 110 TRLRHL",
+      "D": "111 a 120 TRLRHL"
+    },
+    "answer": "C",
+    "explanation": "Los apuntes sitian el IIVTNU en los arts. 104 a 110 del TRLRHL.",
+    "reference": "Sistema tributario local"
+  },
+  {
+    "id": 100,
+    "topic": "Ordenanzas fiscales",
+    "question": "Las fechas de aprobacion y del comienzo de la aplicacion:",
+    "options": {
+      "A": "No tienen que figurar en la ordenanza fiscal",
+      "B": "Deben figurar en la ordenanza fiscal",
+      "C": "Solo se comunican internamente",
+      "D": "Solo se publican en la memoria presupuestaria"
+    },
+    "answer": "B",
+    "explanation": "La ordenanza fiscal debe contener las fechas de su aprobacion y del comienzo de su aplicacion.",
+    "reference": "TRLRHL art. 16; Sistema tributario local"
   }
 ]
