@@ -11,29 +11,29 @@ with open("questions_local.json", "r", encoding="utf-8") as f:
     QUESTIONS = json.load(f)
 
 TOPICS = ["Todos"] + sorted(list({q["topic"] for q in QUESTIONS}))
-MODES = ["Secuencial", "Aleatorio", "Simulacro 20"]
+MODES = ["Secuencial", "Aleatorio", "Simulacro 20", "Repaso de errores"]
 
 # -----------------------------
 # ESTADO
 # -----------------------------
-if "setup_done" not in st.session_state:
-    st.session_state.setup_done = False
-if "queue" not in st.session_state:
-    st.session_state.queue = []
-if "index" not in st.session_state:
-    st.session_state.index = 0
-if "answered" not in st.session_state:
-    st.session_state.answered = False
-if "selected" not in st.session_state:
-    st.session_state.selected = None
-if "score_ok" not in st.session_state:
-    st.session_state.score_ok = 0
-if "score_bad" not in st.session_state:
-    st.session_state.score_bad = 0
-if "current_topic" not in st.session_state:
-    st.session_state.current_topic = "Todos"
-if "current_mode" not in st.session_state:
-    st.session_state.current_mode = "Secuencial"
+DEFAULTS = {
+    "setup_done": False,
+    "queue": [],
+    "index": 0,
+    "answered": False,
+    "selected": None,
+    "score_ok": 0,
+    "score_bad": 0,
+    "current_topic": "Todos",
+    "current_mode": "Secuencial",
+    "wrong_questions": [],
+    "show_reference": True,
+}
+
+for key, value in DEFAULTS.items():
+    if key not in st.session_state:
+        st.session_state[key] = value
+
 
 # -----------------------------
 # FUNCIONES
@@ -48,6 +48,16 @@ def build_queue(topic: str, mode: str):
     elif mode == "Simulacro 20":
         random.shuffle(items)
         items = items[:20]
+    elif mode == "Repaso de errores":
+        items = st.session_state.wrong_questions.copy()
+        # Evitar duplicados por id
+        seen = set()
+        deduped = []
+        for q in items:
+            if q["id"] not in seen and (topic == "Todos" or q["topic"] == topic):
+                seen.add(q["id"])
+                deduped.append(q)
+        items = deduped
 
     return items
 
@@ -69,10 +79,27 @@ def current_question():
         return st.session_state.queue[st.session_state.index]
     return None
 
+
+def register_wrong_question(question):
+    if not any(q["id"] == question["id"] for q in st.session_state.wrong_questions):
+        st.session_state.wrong_questions.append(question)
+
+
+def clear_current_answer_state():
+    st.session_state.answered = False
+    st.session_state.selected = None
+
+
+def next_question():
+    st.session_state.index += 1
+    clear_current_answer_state()
+
+
 # -----------------------------
 # INTERFAZ
 # -----------------------------
 st.title("Estudio Tributacion Local")
+st.caption("Test interactivo basado en questions_local.json")
 
 with st.sidebar:
     st.subheader("Marcador")
@@ -81,6 +108,8 @@ with st.sidebar:
     st.write(f"Aciertos: {st.session_state.score_ok}")
     st.write(f"Errores: {st.session_state.score_bad}")
     st.write(f"Porcentaje: {pct}%")
+    st.write(f"Falladas acumuladas: {len(st.session_state.wrong_questions)}")
+    st.checkbox("Mostrar referencia normativa", key="show_reference")
 
     if st.session_state.setup_done:
         st.write(f"Bloque: {st.session_state.current_topic}")
@@ -88,16 +117,26 @@ with st.sidebar:
         st.write(
             f"Pregunta: {min(st.session_state.index + 1, max(len(st.session_state.queue), 1))}/{len(st.session_state.queue)}"
         )
+        progress = st.session_state.index / len(st.session_state.queue) if st.session_state.queue else 1.0
+        st.progress(min(progress, 1.0))
 
 if not st.session_state.setup_done:
     st.subheader("Configuracion inicial")
-
     topic = st.selectbox("Bloque", TOPICS)
     mode = st.selectbox("Modalidad", MODES)
 
-    if st.button("Empezar test"):
-        reset_quiz(topic, mode)
-        st.rerun()
+    if mode == "Repaso de errores" and len(st.session_state.wrong_questions) == 0:
+        st.info("Aun no has fallado preguntas. Primero haz un test normal para alimentar este modo.")
+
+    col1, col2 = st.columns(2)
+    with col1:
+        if st.button("Empezar test"):
+            reset_quiz(topic, mode)
+            st.rerun()
+    with col2:
+        if st.button("Borrar falladas acumuladas"):
+            st.session_state.wrong_questions = []
+            st.rerun()
 
 else:
     q = current_question()
@@ -111,16 +150,28 @@ else:
         st.write(f"Errores: {st.session_state.score_bad}")
         st.write(f"Porcentaje: {pct}%")
 
-        col1, col2 = st.columns(2)
+        if total > 0:
+            if pct >= 80:
+                st.success("Muy buen resultado.")
+            elif pct >= 60:
+                st.warning("Resultado aceptable, pero conviene repasar los errores.")
+            else:
+                st.error("Conviene repasar el bloque antes de seguir.")
 
+        col1, col2, col3 = st.columns(3)
         with col1:
             if st.button("Repetir misma configuracion"):
                 reset_quiz(st.session_state.current_topic, st.session_state.current_mode)
                 st.rerun()
-
         with col2:
             if st.button("Nueva configuracion"):
                 st.session_state.setup_done = False
+                clear_current_answer_state()
+                st.rerun()
+        with col3:
+            if st.button("Ir a repaso de errores"):
+                st.session_state.setup_done = False
+                st.session_state.current_mode = "Repaso de errores"
                 st.rerun()
 
     else:
@@ -132,7 +183,7 @@ else:
             "Elige una opcion",
             ["A", "B", "C", "D"],
             format_func=lambda x: f"{x}) {q['options'][x]}",
-            key=f"radio_{q['id']}"
+            key=f"radio_{q['id']}_{st.session_state.index}"
         )
 
         col1, col2 = st.columns(2)
@@ -146,12 +197,14 @@ else:
                     st.session_state.score_ok += 1
                 else:
                     st.session_state.score_bad += 1
+                    register_wrong_question(q)
 
                 st.rerun()
 
         with col2:
             if st.button("Cambiar configuracion"):
                 st.session_state.setup_done = False
+                clear_current_answer_state()
                 st.rerun()
 
         if st.session_state.answered:
@@ -161,10 +214,9 @@ else:
                 st.error(f"Incorrecta. Respuesta correcta: {q['answer']}")
 
             st.write("Explicacion:", q["explanation"])
-            st.write("Referencia:", q["reference"])
+            if st.session_state.show_reference:
+                st.write("Referencia:", q["reference"])
 
             if st.button("Siguiente pregunta"):
-                st.session_state.index += 1
-                st.session_state.answered = False
-                st.session_state.selected = None
+                next_question()
                 st.rerun()
