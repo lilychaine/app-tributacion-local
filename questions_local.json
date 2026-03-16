@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "topic": "Sistema tributario local",
+    "question": "Los tributos propios de las entidades locales se clasifican en:",
+    "options": {
+      "A": "Impuestos, tasas y contribuciones especiales",
+      "B": "Impuestos, precios publicos y sanciones",
+      "C": "Tasas, multas e impuestos estatales cedidos",
+      "D": "Contribuciones especiales, recargos y aranceles"
+    },
+    "answer": "A",
+    "explanation": "Los tributos propios de las entidades locales son impuestos, tasas y contribuciones especiales.",
+    "reference": "TRLRHL, art. 2"
+  },
+  {
+    "id": 2,
+    "topic": "Sistema tributario local",
+    "question": "Los principales recursos de las haciendas locales incluyen:",
+    "options": {
+      "A": "Solo tributos propios",
+      "B": "Tributos propios, participacion en tributos del Estado y otros recursos previstos legalmente",
+      "C": "Solo precios publicos y subvenciones",
+      "D": "Solo ingresos patrimoniales"
+    },
+    "answer": "B",
+    "explanation": "La ley contempla una pluralidad de recursos, no solo tributos propios.",
+    "reference": "TRLRHL, art. 2"
+  },
+  {
+    "id": 3,
+    "topic": "Ordenanzas fiscales",
+    "question": "La aprobacion de las ordenanzas fiscales corresponde:",
+    "options": {
+      "A": "Al alcalde",
+      "B": "Al pleno de la corporacion",
+      "C": "A la diputacion provincial",
+      "D": "A la AEAT"
+    },
+    "answer": "B",
+    "explanation": "La aprobacion de las ordenanzas fiscales corresponde al pleno de la corporacion local.",
+    "reference": "TRLRHL, arts. 15 a 17"
+  },
+  {
+    "id": 4,
+    "topic": "Gestion tributaria",
+    "question": "Contra los actos de aplicacion y efectividad de los tributos locales cabe, con caracter previo, recurso de:",
+    "options": {
+      "A": "Alzada",
+      "B": "Reposicion",
+      "C": "Casacion",
+      "D": "Revision de oficio"
+    },
+    "answer": "B",
+    "explanation": "En el ambito local destaca el recurso de reposicion en los terminos legales.",
+    "reference": "TRLRHL, art. 14"
+  },
+  {
+    "id": 5,
+    "topic": "Tasas",
+    "question": "Las entidades locales pueden establecer tasas por:",
+    "options": {
+      "A": "Cualquier servicio publico sin limites",
+      "B": "La utilizacion privativa o aprovechamiento especial del dominio publico local y la prestacion de determinados servicios o actividades",
+      "C": "Cualquier actividad economica privada",
+      "D": "La mera capacidad economica del vecino"
+    },
+    "answer": "B",
+    "explanation": "Ese es el ambito propio de las tasas locales.",
+    "reference": "TRLRHL, art. 20"
+  },
+  {
+    "id": 6,
+    "topic": "Contribuciones especiales",
+    "question": "Las contribuciones especiales se exigen cuando:",
+    "options": {
+      "A": "Se produce una transmision patrimonial",
+      "B": "El sujeto pasivo obtiene un beneficio o aumento de valor de sus bienes por obras o servicios locales",
+      "C": "Se presta cualquier servicio municipal general",
+      "D": "Se incumple una obligacion tributaria"
+    },
+    "answer": "B",
+    "explanation": "Las contribuciones especiales se vinculan al beneficio especial o aumento de valor derivado de obras o servicios publicos.",
+    "reference": "TRLRHL"
+  },
+  {
+    "id": 7,
+    "topic": "IBI",
+    "question": "El IBI es un tributo:",
+    "options": {
+      "A": "Indirecto y personal",
+      "B": "Directo y de caracter real",
+      "C": "Indirecto y real",
+      "D": "Directo y subjetivo"
+    },
+    "answer": "B",
+    "explanation": "El IBI se configura como un impuesto directo de caracter real.",
+    "reference": "TRLRHL, art. 60"
+  },
+  {
+    "id": 8,
+    "topic": "IBI",
+    "question": "El hecho imponible del IBI consiste en:",
+    "options": {
+      "A": "La realizacion de obras en inmuebles",
+      "B": "La titularidad de determinados derechos sobre bienes inmuebles",
+      "C": "La compra de inmuebles urbanos",
+      "D": "La mera posesion de hecho"
+    },
+    "answer": "B",
+    "explanation": "El hecho imponible del IBI es la titularidad de los derechos previstos legalmente sobre los bienes inmuebles.",
+    "reference": "TRLRHL, art. 61"
+  },
+  {
+    "id": 9,
+    "topic": "IAE",
+    "question": "El IAE grava:",
+    "options": {
+      "A": "La titularidad de vehiculos",
+      "B": "El ejercicio de actividades empresariales, profesionales o artisticas",
+      "C": "La realizacion de construcciones",
+      "D": "El incremento de valor de terrenos"
+    },
+    "answer": "B",
+    "explanation": "El IAE grava el ejercicio de actividades empresariales, profesionales o artisticas.",
+    "reference": "TRLRHL"
+  },
+  {
+    "id": 10,
+    "topic": "IVTM",
+    "question": "El IVTM grava:",
+    "options": {
+      "A": "La circulacion de vehiculos de traccion mecanica aptos para circular por vias publicas",
+      "B": "La compra de vehiculos nuevos",
+      "C": "La transmision de vehiculos usados",
+      "D": "La importacion de vehiculos"
+    },
+    "answer": "A",
+    "explanation": "El IVTM grava la titularidad de vehiculos de traccion mecanica aptos para circular por las vias publicas.",
+    "reference": "TRLRHL"
+  }
+]
